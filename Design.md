@@ -21,7 +21,7 @@ The typical end-users that would use this website would be people that like cars
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+A website that need to record sightings of different cars that the client will be interested in.
 
 
 -------------------------------------------------
