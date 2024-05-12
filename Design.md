@@ -32,7 +32,7 @@ A website that need to record sightings of different cars that the client would 
 
 The usability implication means the user interface of the website, these could include following standard conventions, making the behaviour logical and familiar, providing the end-user with a clear route forwards, and always making it obvious to the end-user what is happening. 
 
-This implication is relevant to my major project because
+This implication is relevant to my major project because i need this website to be friendly to use, the people that use this site may not be very good at computer skills so i have to make it so the user knows and understands what is happening.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
@@ -40,7 +40,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 The functionality implication means does the website run?, is everything in working order?, does it meet the end-users purpose?, this implication should fully satisfy the original need / purpose, fully meet the users requirements, and make sure that it copes with all inputs.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is important to my website as it shows that the website runs, i need to make the site run, have it run in working order and fully satisfy the clients need/purpose.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
