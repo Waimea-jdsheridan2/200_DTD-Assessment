@@ -40,7 +40,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 The functionality implication means does the website run?, is everything in working order?, does it meet the end-users purpose?, this implication should fully satisfy the original need / purpose, fully meet the users requirements, and make sure that it copes with all inputs.
 
-This implication is important to my website as it shows that the website runs, i need to make the site run, have it run in working order and fully satisfy the clients need/purpose.
+This implication is important to my website as it shows that the website runs, i need to make the site run, have it run in working order and it needs to fully satisfy the clients need / purpose.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
@@ -48,7 +48,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 The aesthetics implication means does it look good, does it have good colour and fonts? this implication should create an overall design that appeals to the end user, use colours that work effectively together to achieve a pleasing effect, and position items in a way that is balanced.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is relevant to my project because i want my website to be appealing towards the user, i need to make sure that it looks good, has good fonts, and has an appropriate colour scheme that has similar colours for each page.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
@@ -56,7 +56,7 @@ Replace this text with an explanation of what you will need to consider moving f
 
 The end-users implication means does it meet the users specific needs, this implication should know as much as possible about your end-user
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is important for my website because
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
