@@ -1,25 +1,20 @@
-# 200_DTD-Assessment
+# Car Spotting
 
-Car Spotting Assessment.
-
-## Purpose
-
-This project is a system that allows the user to spot cars and keep track of how many cars they spot.
-
-## Features
-
-- Allows the user to keep track of a car they have seen.
-- Allows the user to add a car to the site
-- Allows the user to delete a car if needed.
-
-## System Design and Testing
-
-All of the initial designs for the system can be found
-[here](Design.md)
-
-Testing of the features and further design revisions can be found
-[here](Testing.md)
-
-## Project Mascot
+This is my Level 2 NCEA project for Digital Technologies
 
 ![Logo](images/CarSpotting.png)
+
+It is a database-connected website that allows users to:
+
+- Allows the user to keep track of a car they have seen.
+- Allows the user to add a car to the site.
+- Allows the user to delete a car if needed.
+- Feature 4 here
+- Feature 5 here
+
+## Documentation
+
+The following documents support this project:
+
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)
