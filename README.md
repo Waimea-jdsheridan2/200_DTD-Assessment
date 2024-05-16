@@ -6,11 +6,11 @@ This is my Level 2 NCEA project for Digital Technologies
 
 It is a database-connected website that allows users to:
 
-- Allows the user to keep track of a car they have seen.
-- Allows the user to add a car to the site.
-- Allows the user to delete a car if needed.
-- Feature 4 here
-- Feature 5 here
+- Have a list of previous car sightings.
+- Allows the user to add a car to the system.
+- Allows the user to add a new sighting to the system.
+- Allows the user to view a list of previous cars sighted.
+- Allows the user to add a image of the car that has been sighted.
 
 ## Documentation
 
