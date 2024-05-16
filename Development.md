@@ -1,8 +1,8 @@
 # Development of a Database-Linked Website for NCEA Level 2
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Car Spotting Website**
 
-Project Author: **YOUR NAME HERE**
+Project Author: **Jayarn Sheridan**
 
 Assessment Standards: **91892** and **91893**
 
@@ -11,11 +11,13 @@ Assessment Standards: **91892** and **91893**
 
 ## Design, Development and Testing Log
 
-### DATE HERE
+### 16.5.24
 
-Replace this test with what you are working on
+Working on the DataBase
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Alt text](image.png)
+
+I have worked on my database, i have gotten the car table and have gor 2 columns in so far 'Make' and 'Model', i have got the Sightings table done as well, the table has: id, Car.id, Date_time, and Location.
 
 ### DATE HERE
 
