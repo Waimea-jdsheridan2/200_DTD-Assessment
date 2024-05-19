@@ -13,17 +13,19 @@ Assessment Standards: **91892** and **91893**
 
 ### 16.5.24
 
-Working on the DataBase
+Working on my DataBase version 1.
 
-![Alt text](image.png)
+![Database v1](images/Database_v1.png)
 
 I have worked on my database, i have gotten the car table and have gor 2 columns in so far 'Make' and 'Model', i have got the Sightings table done as well, the table has: id, Car.id, Date_time, and Location.
 
-### DATE HERE
+### 20.5.24
 
-Replace this test with what you are working on
+I am working on my User Interface design version 1.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![UI design v1](images/UI_design_v1.png)
+
+I have made a outline of what my ui design 
 
 ### DATE HERE
 
