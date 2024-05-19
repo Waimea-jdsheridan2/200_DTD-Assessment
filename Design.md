@@ -34,7 +34,7 @@ The usability implication means the user interface of the website, these could i
 
 This implication is relevant to my major project because i need this website to be friendly to use, the people that use this site may not be very good at computer skills so i have to make it so the user knows and understands what is happening.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Moving forward i will need to consider how friendly my UI will be for my client i will make it follow standard conventions, i will make the UI in a way that will be easy to use, clients should be able to see what part of the website they are working on with ease.
 
 ### Functionality
 
@@ -42,7 +42,7 @@ The functionality implication means does the website run?, is everything in work
 
 This implication is important to my website as it shows that the website runs, i need to make the site run, have it run in working order and it needs to fully satisfy the clients need / purpose.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+When moving forward i will need to consider how my website functions, i will make it so that it functions properly and it does what my client intends it to do. when my client clinks on link to other parts of the site, it should do it and show what the link is intended to do.
 
 ###  Aesthetics
 
@@ -50,15 +50,15 @@ The aesthetics implication means does it look good, does it have good colour and
 
 This implication is relevant to my project because i want my website to be appealing towards the user, i need to make sure that it looks good, has good fonts, and has an appropriate colour scheme that has similar colours for each page.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Moving forward, i will need to consider my colours for my website, i will make my colours follow standard conventions and have it relate to a theme of cars and spotting things, i should have appropriate colours that are not too in your face but not too dull either.
 
 ###  End-Users
 
 The end-users implication means does it meet the users specific needs, this implication should know as much as possible about your end-user
 
-This implication is important for my website because
+This implication is important for my website because it should meet my end users intentions, it should make the end user add a car sighting to the sight an dit should help the end user in the site.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Moving forward i will need to consider how my site will meet my end users expectations, i will make my site so that it knows what the end user wants and will do what the end user needs, i will make it so that the site will not interfere with what my end user wants by allowing the client to do what they want for the site.
 
 
 -------------------------------------------------
