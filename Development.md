@@ -19,22 +19,14 @@ Working on my DataBase version 1.
 
 I have worked on my database, i have gotten the car table and have gor 2 columns in so far 'Make' and 'Model', i have got the Sightings table done as well, the table has: id, Car.id, Date_time, and Location.
 
-<<<<<<< HEAD
 > If i was looking at spotting a car, some of the details i would like to know would be, what colour, what year, how many owners (if possible), kilometers travelled (if possible), and condition inside and out.
-=======
->If i was looking at spotting a car, some of the details i would like to know would be, what colour, what year, how many owners (if possible), kilometers travelled (if possible), and condition inside and out.
->>>>>>> a83acc841f3262ecbb840c2b0022de0f221c7629
 
 Database version 2.
 
 ![Database v2](images/Database_v2.png)
 
-<<<<<<< HEAD
 I have followed my clients advice and have added more columns into my database table that have the names of what my client stated.
 
-=======
-I have followed my clients advice and have added more coloumns into my database table that have the names of what my client stated.
->>>>>>> a83acc841f3262ecbb840c2b0022de0f221c7629
 
 ### 20.5.24
 
@@ -42,17 +34,7 @@ I am working on my User Interface design version 1.
 
 ![UI design v1](images/UI_design_v1.png)
 
-<<<<<<< HEAD
 I have made a outline of what my ui design could be, when the client opens up the website indicated by the word 'Start', they will be sent directly to a list of previously spotted cars, from there, there could be a add button to add a new car sighting to the site and a cancel button if they need to revert out of the new sighting page. When my client clicks/taps on a previously sighted car, it would come up with the car details.
-=======
-I have made a outline of what my ui design could be, when the client opens up the website indicated by the word 'Start', they will be sent directly to a list of previously spotted cars, from there, thre could be a add button to add a new car sighting to the site and a cancel button if they need to revert out of the new sighting page. When my client clicks/taps on a previously sighted car, it would come up with the car details.
-
->I suggested to add another box and make that a watchlist.
-
-![UI design v2](images/UI_design_v2.png)
-
-I listened to my clients advice and added another box and arrow which says 'Watchlist'.
->>>>>>> a83acc841f3262ecbb840c2b0022de0f221c7629
 
 >I suggested to add another box and make that a watchlist.
 
