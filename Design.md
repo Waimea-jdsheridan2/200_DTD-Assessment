@@ -34,7 +34,7 @@ The usability implication means the user interface of the website, these could i
 
 This implication is relevant to my major project because i need this website to be friendly to use, the people that use this site may not be very good at computer skills so i have to make it so the user knows and understands what is happening.
 
-Moving forward i will need to consider how friendly my UI will be for my client i will make it follow standard conventions, i will make the UI in a way that will be easy to use, clients should be able to see what part of the website they are working on with ease.
+Moving forward, i will need to consider how friendly the user interface is going to be at, the user interface should be easy to use, clients should be able to know what parts of the site they are working on. I should make sure that the ui works well by testing it with my client and getting feedback about it to do any changes that may be required.
 
 ### Functionality
 
@@ -42,7 +42,7 @@ The functionality implication means does the website run?, is everything in work
 
 This implication is important to my website as it shows that the website runs, i need to make the site run, have it run in working order and it needs to fully satisfy the clients need / purpose.
 
-When moving forward i will need to consider how my website functions, i will make it so that it functions properly and it does what my client intends it to do. when my client clinks on link to other parts of the site, it should do it and show what the link is intended to do.
+When moving forward i will need to consider about how the website will function, i will need to make it function right and in the correct order, i will have to make the functionality meets the purpose of what the client is wanting and how it will effect them. To verify this i will be testing with my client and getting feeback on any changes that would need to happen.
 
 ###  Aesthetics
 
@@ -50,15 +50,15 @@ The aesthetics implication means does it look good, does it have good colour and
 
 This implication is relevant to my project because i want my website to be appealing towards the user, i need to make sure that it looks good, has good fonts, and has an appropriate colour scheme that has similar colours for each page.
 
-Moving forward, i will need to consider my colours for my website, i will make my colours follow standard conventions and have it relate to a theme of cars and spotting things, i should have appropriate colours that are not too in your face but not too dull either.
+Moving forward i will need to consider how the page will look and will it follow normal design conventions, i will make it so that it will have appropiate colours and will follow the colour scheme of cars and spotting things. these colours will alos have to appeal to my client, for this,i will be trying out a variety of colours and choosing the one that look best for my website.
 
 ###  End-Users
 
 The end-users implication means does it meet the users specific needs, this implication should know as much as possible about your end-user
 
-This implication is important for my website because it should meet my end users intentions, it should make the end user add a car sighting to the sight an dit should help the end user in the site.
+This implication is important for my website because i want my website to fully satisfy my end-users needs, my website should show what the end user is wanting and deliver it in a way that is friendly towards my user.
 
-Moving forward i will need to consider how my site will meet my end users expectations, i will make my site so that it knows what the end user wants and will do what the end user needs, i will make it so that the site will not interfere with what my end user wants by allowing the client to do what they want for the site.
+Looking forward i will need to consider my end-users, they may have diiferent needs of the use of this site and i will have to make it clear to them that the website will be able to furfill their specifications of need.
 
 
 -------------------------------------------------
