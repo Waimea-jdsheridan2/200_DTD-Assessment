@@ -60,13 +60,15 @@ I have been working on mu Ui interface in Figma.
 
 This is my UI interface design for my Car Spotting website, it consists of 4 pages, 'Watchlist', 'Home Page', 'New car Form', and 'Car Details'. The 4 pages have similar designs in them as well as minimal colours. I will be showing this to my client and be getting feedback from them.
 
->For a car database website it looks fine so far. Looking forward to adding some cars and details to it so we can fine tune the details if required.
+>For a car database website it looks fine so far, maybe in the New Car Form, you could have examples in each of the fields like Make is mitsubishi, model is Galant VR4 etc. Looking forward to adding some cars and details to it so we can fine tune the details if required.
 
-### DATE HERE
+### 30.5.24
 
-Replace this test with what you are working on
+This is my version 2 of the UI interface for my Car Spotting website.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![UI interface v2](images/UI_interface_V2.png)
+
+This is v2 of my ui interface for my site, the improvements/changes that I have done to my ui interface v2 is the following: I have added detail buttons onto my watchlisted car list and have put 'e.g.' examples into the new car form field list.
 
 ### DATE HERE
 
