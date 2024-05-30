@@ -52,15 +52,6 @@ I have done some minor changes to my UI flow design.
 
 I have tweaked the colour of my boxes and i have added more arrows showing how the3 user will be able to get back out of the car details page and the watchlist page, i have also added a submit arrow for when a new car sighting is ready to be added.
 
-### 27.5.24
-
-I have been working on my UI interface.
-
-![UI interface V1](images/UI_interface_V1.png)
-
-This is my UI interface design V1, it consists of 4 boxes: 'Watchlisted Cars', 'Home Page', 'New Car Form' and 'Car Details'. The boxesa re all similar desing and hav basic colouring on them. I will be getting feedback from my client and seeing if there need to be changes, improvements, etc.
-
->For a car database website it looks fine so far. Looking forward to adding some cars and details to it so we can fine tune the details if required.
 
 ### DATE HERE
 
