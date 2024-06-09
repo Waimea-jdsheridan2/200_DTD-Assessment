@@ -70,8 +70,10 @@ This is my version 2 of the UI interface for my Car Spotting website.
 
 This is v2 of my ui interface for my site, the improvements/changes that I have done to my ui interface v2 is the following: I have added detail buttons onto my watchlisted car list and have put 'e.g.' examples into the new car form field list.
 
-### DATE HERE
+### 10.6.24
 
-Replace this test with what you are working on
+I have been working on my colours for my UI design.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Colour Choices](images/Colours.png)
+
+Today I worked on my colour choices 
