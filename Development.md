@@ -68,12 +68,12 @@ This is my version 2 of the UI interface for my Car Spotting website.
 
 ![UI interface v2](images/UI_interface_V2.png)
 
-This is v2 of my ui interface for my site, the improvements/changes that I have done to my ui interface v2 is the following: I have added detail buttons onto my watchlisted car list and have put 'e.g.' examples into the new car form field list.
+This is v2 of my UI interface for my site, the improvements/changes that I have done to my ui interface v2 is the following: I have added detail buttons onto my watchlisted car list and have put 'e.g.' examples into the new car form field list. I will talk to my client to see if they are happy with this change.
 
 ### 10.6.24
 
 I have been working on my colours for my UI design.
 
-![Colour Choices](images/Colours.png)
+![Colour Choices](images/Colours_V1.png)
 
-Today I worked on my colour choices 
+Today I worked on my colour choices , i have chosen neutral green and blue colours that aren't too crazy but also don't too much com pared to some other colour palettes. I will be showing my client This colour option and getting feed back on it.
