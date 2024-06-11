@@ -77,3 +77,5 @@ I have been working on my colours for my UI design.
 ![Colour Choices](images/Colours_V1.png)
 
 Today I worked on my colour choices , i have chosen neutral green and blue colours that aren't too crazy but also don't too much com pared to some other colour palettes. I will be showing my client This colour option and getting feed back on it.
+
+>These colours look suitable for the layout of this website. I am very happy with the way it is turning out.
