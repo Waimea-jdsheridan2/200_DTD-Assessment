@@ -17,9 +17,9 @@ I have been working on my database version 1.
 
 ![Database V1](images/Database_v1.png)
 
-I have worked on my database, I have gotten the car table and have gor 2 columns in so far 'Make' and 'Model', I have got the Sightings table done as well, the table has: id, Car.id, Date_time, and Location.
+I have worked on my database, I have gotten the car table and have got 2 columns in so far 'Make' and 'Model', I have got the Sightings table done as well, the table has: id, Car.id, Date_time, and Location.
 
-> If i was looking at spotting a car, some of the details i would like to know would be, what colour, what year, how many owners (if possible), kilometres travelled (if possible), and condition inside and out.
+> If I was looking at spotting a car, some of the details I would like to know would be, what colour, what year, how many owners (if possible), kilometres travelled (if possible), and condition inside and out.
 
 This is database version 2.
 
@@ -68,7 +68,7 @@ This is my version 2 of the UI interface for my Car Spotting website.
 
 ![UI interface V2](images/UI_interface_V2.png)
 
-This is v2 of my UI interface for my site, the improvements/changes that I have done to my ui interface v2 is the following: I have added detail buttons onto my watchlisted car list and have put 'e.g.' examples into the new car form field list. I will talk to my client to see if they are happy with this change.
+This is version 2 of my UI interface for my site, the improvements/changes that I have done to my ui interface v2 is the following: I have added detail buttons onto my watchlisted car list and have put 'e.g.' examples into the new car form field list. I will talk to my client to see if they are happy with this change.
 
 ### 10.6.24
 
@@ -78,8 +78,8 @@ I have been working on my colours for my UI design.
 
 Today I worked on my colour choices , I have chosen neutral green and blue colours that aren't too crazy but also don't too much com pared to some other colour palettes. I will be showing my client This colour option and getting feed back on it.
 
->These colours look suitable for the layout of this website, the only thing that I would say to change is the blueish-purple in the new car form and details form to a darker colour. I am very happy with the way it is turning out.
+>These colours look suitable for the layout of this website, the only thing that I would say to change is the blueish-purple in the new car form and details form to a darker colour to kae it stand out more. Other then that I am very happy with the way it is turning out.
 
 ![Colour Choices V2](images/Colours_V2.png)
 
-I have followed up with my clients advice and changed the new car form and details forms fields to have a darker colour, this is to ensure the fields stand out more. 
+I have followed up with my clients advice and changed the new car form and details forms fields to have a darker colour, this is to ensure the fields stand out more and to make the colour palette fit the overall site.
