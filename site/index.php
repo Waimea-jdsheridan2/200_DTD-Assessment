@@ -27,6 +27,8 @@ foreach($Sightings as $Sighting) {
     echo '<li>';
     echo   '<a href="Sighting.php?code=' . $Sighting['Code'] . '">'; 
     echo     $Sighting['Car.id'];
+    echo     $Sighting['Date_time'];
+    echo     $Sighting['Location'];
     echo   '</a>';
     echo '</li>';
 }
@@ -39,6 +41,11 @@ echo '<div id="add-button">
         </a>
      </div>';
 
+     echo '<div id="watchlist-button">
+     <a href="Watchlist.php">
+         Watchlist
+     </a>
+  </div>';
+
  include 'partials/bottom.php'; 
- 
  ?>
