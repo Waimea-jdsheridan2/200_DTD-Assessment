@@ -26,8 +26,8 @@ echo '<ul id="Sighting-list">';
 foreach($Sightings as $Sighting) {
     echo '<li>';
     echo   '<a href="Sighting.php?code=' . $Sighting['Code'] . '">'; 
-    echo     $Sighting['Car.id'];
-    echo     $Sighting['Date_time'];
+    echo     $Sighting['Car_id'];
+    echo     $Sighting['Date'];
     echo     $Sighting['Location'];
     echo   '</a>';
     echo '</li>';

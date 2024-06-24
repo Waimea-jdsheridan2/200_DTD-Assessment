@@ -16,7 +16,7 @@ include 'partials/top.php';
            pattern="[A-Z]"
            required>
 
-    <label>Car Id</label>
+    <label>Car_id</label>
     <input name="name"
            type="number"
            placeholder="e.g. 1"
@@ -30,7 +30,7 @@ include 'partials/top.php';
 
     <label>Location</label>
     <input name="Location" 
-           type="url" 
+           type="text" 
            placeholder="e.g. Richmond" 
            required>
 
