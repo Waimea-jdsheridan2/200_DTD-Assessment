@@ -27,8 +27,10 @@ foreach($Sightings as $Sighting) {
     echo '<li>';
     echo   '<a href="Sighting.php?code=' . $Sighting['Code'] . '">'; 
     echo     $Sighting['Car_id'];
-    echo     $Sighting['Date'];
+    echo     $Sighting['Date']; 
     echo     $Sighting['Location'];
+    echo   '<a href="Details.php' . $Sighting['Details'] . '">';
+    echo    'Details';
     echo   '</a>';
     echo '</li>';
 }
