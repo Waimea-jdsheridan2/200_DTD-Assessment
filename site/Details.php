@@ -2,7 +2,7 @@
 require 'lib/utils.php';
 include 'partials/top.php';
 
-$Carid = $_GET['id'] ?? '';
+$carid = $_GET['id'] ?? '';
 
 $db = connectToDB();
 consolelog($db);
@@ -27,14 +27,13 @@ $query = 'SELECT * FROM Cars WHERE Sighting =?';
 try {
     $stmt = $db->prepare($query);
     $stmt->execute([$SightingCode]);
-    $Cars = $stmt->fetchAll(); 
+    $Car = $stmt->fetchAll(); 
 }
 catch (PDOException $e) {
     consolelog($e->getMessage(), 'DB Car Fetch', ERROR);
     die('There was an error getting car data from the database');
 }
 
-//----------------------------------
 echo '<div id="cars">';
 echo   '<h3>Cars</h3>';
 

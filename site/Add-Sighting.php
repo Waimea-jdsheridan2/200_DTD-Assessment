@@ -7,25 +7,25 @@ echo '<h1>Adding Sighting to Database...</h1>';
 
 consolelog($_POST, 'POST Data');
 
-$Code     = strtoupper($_POST['code']);
-$Car_id   = $_POST['Car_id'];
-$Date     = $_POST['Date'];
-$Location = $_POST['Location'];
+$code     = strtoupper($_POST['code']);
+$car_id   = $_POST['car_id'];
+$date     = $_POST['date'];
+$location = $_POST['location'];
 
-echo '<p>Code: '       . $Code;
-echo '<p>Car_id: '     . $Car_id;
-echo '<p>Date: '       . $Date;
-echo '<p>Location: '   . $Location;
+echo '<p>Code: '       . $code;
+echo '<p>Car_id: '     . $car_id;
+echo '<p>Date: '       . $date;
+echo '<p>Location: '   . $location;
 
 $db = connectToDB();
 
 $query = 'INSERT INTO Sightings 
-          (Code, Car_id, Date, Location)
+          (code, car_id, date, location)
           VALUES (?,?,?,?)';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$Code, $Car_id, $Date, $Location]);
+    $stmt->execute([$code, $car_id, $date, $location]);
 }
 catch (PDOException $e) {
     consolelog($e->getMessage(), 'DB Sighting Add', ERROR);
@@ -36,4 +36,4 @@ echo '<p>Success!!!</p>';
 
  include 'partials/bottom.php';
  
- ?>
+?>
