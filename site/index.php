@@ -29,7 +29,7 @@ foreach($Sightings as $Sighting) {
     echo     $Sighting['car_id'];
     echo     $Sighting['date']; 
     echo     $Sighting['location'];
-    echo   '<a href="Details.php' . $Sighting['Details'] . '">';
+    echo   '<a href="details.php?' . $Sighting['details'] . '">';
     echo    'Details';
     echo   '</a>';
     echo '</li>';

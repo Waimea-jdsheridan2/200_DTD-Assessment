@@ -2,7 +2,7 @@
 require 'lib/utils.php';
 include 'partials/top.php';
 
-$carid = $_GET['id'] ?? '';
+$id = $_GET['id'] ?? '';
 
 $db = connectToDB();
 consolelog($db);
@@ -11,7 +11,7 @@ $query = 'SELECT * FROM Cars WHERE id =?';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$Carid]);
+    $stmt->execute([$id]);
     $Car = $stmt->fetch();
 }
 catch (PDOException $e) {
@@ -19,7 +19,7 @@ catch (PDOException $e) {
     die('There was an error getting car data from the database');
 }
 
-if ($Car == false) die('Unknown Car: ' . $Carid);
+if ($Car == false) die('Unknown Car: ' . $id);
 echo $Car['id'];
 
 $query = 'SELECT * FROM Cars WHERE Sighting =?';
@@ -44,9 +44,9 @@ else {
     echo '<ul id="car-list">';
     foreach($Cars as $Car) {
         echo '<li>';
-        echo     $Car['Make'];
+        echo     $Car['make'];
         echo     '<br>';
-        echo     $Car['Model'];
+        echo     $Car['model'];
         echo '</li>';
     }
     echo '</ul>';
