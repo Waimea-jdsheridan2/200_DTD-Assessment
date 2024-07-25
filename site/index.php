@@ -7,29 +7,29 @@ echo '<h2>Sighted Cars</h2>';
 $db = connectToDB();
 consolelog($db);
 
-$query = 'SELECT * FROM Sightings';
+$query = 'SELECT * FROM sightings';
 
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
-    $Sightings = $stmt->fetchAll();
+    $sightings = $stmt->fetchAll();
 }
 catch (PDOException $e) {
     consolelog($e->getMessage(), 'DB List Fetch', ERROR);
     die('There was an error getting data from the database');
 }
 
-consoleLog($Sightings);
+consoleLog($sightings);
 
 echo '<ul id="Sighting-list">';
 
-foreach($Sightings as $Sighting) {
+foreach($sightings as $sighting) {
     echo '<li>';
-    echo   '<a href="Sighting.php?code=' . $Sighting['code'] . '">'; 
-    echo     $Sighting['car_id'];
-    echo     $Sighting['date']; 
-    echo     $Sighting['location'];
-    echo   '<a href="details.php?' . $Sighting['details'] . '">';
+    echo   '<a href="Sighting.php?code=' . $sighting['code'] . '">'; 
+    echo     $sighting['car_id'];
+    echo     $sighting['date']; 
+    echo     $sighting['location'];
+    echo   '<a href="details.php?' . $sighting['details'] . '">';
     echo    'Details';
     echo   '</a>';
     echo '</li>';

@@ -19,7 +19,7 @@ echo '<p>Location: '   . $location;
 
 $db = connectToDB();
 
-$query = 'INSERT INTO Sightings 
+$query = 'INSERT INTO sightings 
           (code, car_id, date, location)
           VALUES (?,?,?,?)';
 
