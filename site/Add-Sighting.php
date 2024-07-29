@@ -7,15 +7,15 @@ echo '<h1>Adding Sighting to Database...</h1>';
 
 consolelog($_POST, 'POST Data');
 
-$code     = strtoupper($_POST['code']);
-$car_id   = $_POST['car_id'];
-$date     = $_POST['date'];
-$location = $_POST['location'];
+$code      = strtoupper($_POST['code']);
+$car_id    = $_POST['car_id'];
+$date   = $_POST['date'];
+$location   = $_POST['location'];
 
-echo '<p>Code: '       . $code;
-echo '<p>Car_id: '     . $car_id;
-echo '<p>Date: '       . $date;
-echo '<p>Location: '   . $location;
+echo '<p>Code: '        . $code;
+echo '<p>Car id: '      . $car_id;
+echo '<p>Date: '        . $date;
+echo '<p>Location: '    . $location;
 
 $db = connectToDB();
 
@@ -36,4 +36,4 @@ echo '<p>Success!!!</p>';
 
  include 'partials/bottom.php';
  
-?>
+ ?>
