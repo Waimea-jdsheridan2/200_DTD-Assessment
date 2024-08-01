@@ -7,12 +7,10 @@ echo '<h1>Adding Sighting to Database...</h1>';
 
 consolelog($_POST, 'POST Data');
 
-$code      = strtoupper($_POST['code']);
-$car_id    = $_POST['car_id'];
-$date   = $_POST['date'];
-$location   = $_POST['location'];
+$car_id    = $_POST['id'];
+$date      = $_POST['date'];
+$location  = $_POST['location'];
 
-echo '<p>Code: '        . $code;
 echo '<p>Car id: '      . $car_id;
 echo '<p>Date: '        . $date;
 echo '<p>Location: '    . $location;
@@ -20,12 +18,12 @@ echo '<p>Location: '    . $location;
 $db = connectToDB();
 
 $query = 'INSERT INTO sightings 
-          (code, car_id, date, location)
-          VALUES (?,?,?,?)';
+          (car_id, date, location)
+          VALUES (?,?,?)';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$code, $car_id, $date, $location]);
+    $stmt->execute([$car_id, $date, $location]);
 }
 catch (PDOException $e) {
     consolelog($e->getMessage(), 'DB Sighting Add', ERROR);

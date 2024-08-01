@@ -25,7 +25,6 @@ echo '<ul id="Sighting-list">';
 
 foreach($sightings as $sighting) {
     echo '<li>';
-    echo   '<a href="Sighting.php?code=' . $sighting['code'] . '">'; 
     echo     $sighting['car_id'];
     echo     $sighting['date']; 
     echo     $sighting['location'];
@@ -38,13 +37,13 @@ foreach($sightings as $sighting) {
 echo '</ul>';
 
 echo '<div id="add-button">
-        <a href="Form-Sighting.php">
+        <a href="form-sighting.php">
             Add
         </a>
      </div>';
 
      echo '<div id="watchlist-button">
-     <a href="Watchlist.php">
+     <a href="watchlist.php">
          Watchlist
      </a>
   </div>';

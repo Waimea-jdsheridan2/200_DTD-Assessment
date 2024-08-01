@@ -1,37 +1,53 @@
 <?php 
 require 'lib/utils.php';
 include 'partials/top.php';
+
+$db = connectToDB();
+
+$query = 'SELECT * FROM cars';
+
+try {
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $cars = $stmt->fetchAll();
+}
+catch (PDOException $e) {
+    consolelog($e->getMessage(), 'DB List Fetch', ERROR);
+    die('There was an error getting data from the database');
+}
 ?>
 
 <h2>New Sighting</h2>
 
-<form method="post" action="Add-Sighting.php">
+<form method="post" action="add-sighting.php">
 
-    <label>Code</label>
-    <input name="code"
-           type="text"
-           placeholder="e.g. A"
-           minlength="1"
-           maxlength="1"
-           pattern="[A-Z]"
-           required>
+    <label>Car</label>
+    <select name="id" required>
+<?php
 
-    <label>Car_id</label>
-    <input name="name"
-           type="number"
-           placeholder="e.g. 1"
-           required>
+foreach($cars as $car) {
+    echo '<option value="' . $car['id'] . '">';
+    echo $car['make'] . ' ' . $car['model'];
+    echo '</option>';
+}
+
+?>
+    </select>
 
     <label>Date</label>
-    <input name="name" 
-           type="text" 
-           placeholder="8 September, 2015" 
+    <input name="date" 
+           type="date" 
            required>
 
     <label>Location</label>
-    <input name="Location" 
+    <input name="location" 
            type="text" 
            placeholder="e.g. Richmond" 
+           required>
+
+    <label>Details</label>
+    <input name="details"
+           type="text"
            required>
 
     <input type="submit" 
