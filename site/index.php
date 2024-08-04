@@ -26,8 +26,9 @@ echo '<ul id="Sighting-list">';
 foreach($sightings as $sighting) {
     echo '<li>';
     echo     $sighting['car_id'];
-    echo     $sighting['date']; 
+    echo     $sighting['date'];
     echo     $sighting['location'];
+    echo '<a class="name" href="delete-sighting.php?id=' . $sighting['id'] . '">🗑</a>';
     echo   '<a href="details.php?' . $sighting['details'] . '">';
     echo    'Details';
     echo   '</a>';
@@ -36,17 +37,17 @@ foreach($sightings as $sighting) {
 
 echo '</ul>';
 
-echo '<div id="add-button">
+echo '<div id="add-button-sighting">
         <a href="form-sighting.php">
-            Add
+            Add Sighting
         </a>
      </div>';
 
-     echo '<div id="watchlist-button">
-     <a href="watchlist.php">
-         Watchlist
-     </a>
-  </div>';
+echo '<div id="watchlist-button">
+        <a href="watchlist.php">
+            Watchlist
+        </a>
+    </div>';
 
  include 'partials/bottom.php'; 
  ?>
