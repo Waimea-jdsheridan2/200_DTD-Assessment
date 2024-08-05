@@ -18,6 +18,7 @@ body {
 
 
 /* HEADER ****************************************************/
+
 header {
     position: sticky;
     top: 0;
@@ -25,7 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #02A676;
+    background-color: darkslategray;
     border-bottom: 1px solid slategrey;
 }
 
@@ -34,6 +35,29 @@ header h1 {
     font-size: 1.6rem;
     font-weight: normal;
 }
+
+
+/* NAV ****************************************************/
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: yellow;
+    text-decoration: underline;
+}
+
 
 /* MAIN ****************************************************/
 
@@ -45,33 +69,39 @@ main {
 
 /* LISTS ****************************************************/
 
-#Sighting-list  {
+#sighting-list  {
     list-style: none;
     padding: 0;
     width: max-content;
     margin: 1rem auto;
 }
 
-#Sighting-list li {
+#sighting-list li {
     margin-bottom: 0.3rem;
     display: flex;
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
-    background-color: #585ad5;
+    background-color: #369;
     border-radius: 0.3rem;
 }
 
-#Sighting-list li a {
+#sighting-list li a {
     display: block;
     padding: 0.2rem 0.5rem;
     color: white;
     text-decoration: none;
 }
 
-#Sighting-list li:hover {
+#sighting-list li:hover {
     background-color: #f00;
 }
+
+
+
+/* TABLES ****************************************************/
+
+
 
 /* FORMS *****************************************************/
 
@@ -81,12 +111,11 @@ form {
     padding: 1rem;
     border: 1px solid #369;
     border-radius: 0.5rem;
-    background-color:#02A676 ;
 }
 
 label {
     display: block;
-    color: #f5f3d6;
+    color: #9cf;
 }
 
 input, select {
@@ -113,25 +142,7 @@ select:not(:last-child) {
 
     height: 3rem;
     width: 3rem;
-    background-color: #247b8f;
-    border-radius: 3rem;
-}
-
-/* WATCHLIST BUTTON ******************************************/
-#watchlist-button {
-    position: fixed;
-    right: 30rem;
-    bottom: 2rem;
-}
-
-#watchlist-button a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 3rem;
-    width: 5rem;
-    background-color: #247b8f;
+    background-color: rgb(255, 238, 0);
     border-radius: 3rem;
 }
 
@@ -141,7 +152,7 @@ footer {
     padding: 1rem;
     text-align: center;
     border-top: 1px solid slategrey;
-    background-color: #02A676;
+    background-color: darkslategrey;
     font-size: 0.8rem;
     color: slategrey;
 }

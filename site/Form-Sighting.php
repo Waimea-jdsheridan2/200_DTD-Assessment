@@ -55,9 +55,6 @@ foreach($cars as $car) {
 
 </form>
 
-
-
-
 <?php
 include 'partials/bottom.php';
 ?>

@@ -43,6 +43,12 @@ echo '<div id="add-button-sighting">
         </a>
      </div>';
 
+echo '<div id="add-button-car">
+        <a href="form-car.php">
+            Add Car
+        </a>
+     </div>';
+
 echo '<div id="watchlist-button">
         <a href="watchlist.php">
             Watchlist
