@@ -46,7 +46,7 @@ catch (PDOException $e) {
            required>
 
     <label>HMO</label>
-    <input name="how many owners"
+    <input name="hmo"
            type="text"
            placeholder="e.g. 1" 
            required>

@@ -15,13 +15,13 @@ $hmo         = $_POST['hmo'];
 $kilometers  = $_POST['kilometers'];
 $condition   = $_POST['condition'];
 
-echo '<p>make: '         . $make;
-echo '<p>model: '        . $model;
-echo '<p>colour: '       . $colour;
-echo '<p>year: '         . $year;
-echo '<p>hmo: '          . $hmo;
-echo '<p>kilometers: '   . $kilometers;
-echo '<p>condition: '    . $condition;
+echo '<p>make: '          . $make;
+echo '<p>model: '         . $model;
+echo '<p>colour: '        . $colour;
+echo '<p>year: '          . $year;
+echo '<p>hmo: '           . $hmo;
+echo '<p>kilometers: '    . $kilometers;
+echo '<p>condition: '     . $condition;
 
 $db = connectToDB();
 
@@ -31,7 +31,7 @@ $query = 'INSERT INTO cars
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$make, $model, $colour. $year, $hmo, $kilometers, $condition]);
+    $stmt->execute([$make, $model, $colour, $year, $hmo, $kilometers, $condition]);
 }
 catch (PDOException $e) {
     consolelog($e->getMessage(), 'DB Car Add', ERROR);

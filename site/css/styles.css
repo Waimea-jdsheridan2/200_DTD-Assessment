@@ -128,20 +128,53 @@ select:not(:last-child) {
     margin-bottom: 1rem;
 }
 
-/*ADD BUTTON ************************************************/
-#add-button {
+/*ADD BUTTON SIGHTING************************************************/
+#add-button-sighting {
     position: fixed;
     right: 2rem;
     bottom: 2rem;
 }
 
-#add-button a {
+#add-button-sighting a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(255, 238, 0);
+    border-radius: 3rem;
+}
 
-    height: 3rem;
-    width: 3rem;
+/*ADD BUTTON CAR************************************************/
+#add-button-car {
+    position: fixed;
+    right: 7rem;
+    bottom: 2rem;
+}
+
+#add-button-car a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(255, 238, 0);
+    border-radius: 3rem;
+}
+
+/*WATCHLIST BUTTON************************************************/
+#watchlist-button {
+    position: fixed;
+    right: 30rem;
+    bottom: 2rem;
+}
+
+#watchlist-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 5rem;
     background-color: rgb(255, 238, 0);
     border-radius: 3rem;
 }

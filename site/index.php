@@ -21,7 +21,7 @@ catch (PDOException $e) {
 
 consoleLog($sightings);
 
-echo '<ul id="Sighting-list">';
+echo '<ul id="sighting-list">';
 
 foreach($sightings as $sighting) {
     echo '<li>';
