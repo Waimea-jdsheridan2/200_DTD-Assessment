@@ -41,5 +41,4 @@ catch (PDOException $e) {
 echo '<p>Success!!!</p>';
 
  include 'partials/bottom.php';
- 
  ?>
