@@ -7,7 +7,14 @@ echo '<h2>Sighted Cars</h2>';
 $db = connectToDB();
 consolelog($db);
 
-$query = 'SELECT * FROM sightings';
+$query = 'SELECT sightings.id AS sid,
+                 sightings.date,
+                 sightings.location,
+                 cars.model,
+                 cars.make
+            FROM sightings
+            JOIN cars ON sightings.car_id = cars.id
+            ORDER BY sightings.date DESC';
 
 try {
     $stmt = $db->prepare($query);
@@ -25,13 +32,15 @@ echo '<ul id="sighting-list">';
 
 foreach($sightings as $sighting) {
     echo '<li>';
-    echo     $sighting['car_id'];
-    echo     $sighting['date'];
-    echo     $sighting['location'];
-    echo '<a class="name" href="delete-sighting.php?id=' . $sighting['id'] . '">🗑</a>';
-    echo   '<a href="details.php?' . $sighting['details'] . '">';
-    echo    'Details';
-    echo   '</a>';
+    echo     '<p class="car">'. $sighting['make'] . ' '. $sighting['model'] . '</p>';
+    echo     '<p>';
+    echo       '<span class="date">'. $sighting['date'] . '</span>';
+    echo       '<span class="location">'. $sighting['location'] . '</span>';
+    echo       '<a class="name" href="delete-sighting.php?id=' . $sighting['sid'] . '">🗑</a>';
+    echo       '<a href="details.php?id=' . $sighting['sid'] . '">';
+    echo         'Details';
+    echo       '</a>';
+    echo    '</p>';
     echo '</li>';
 }
 

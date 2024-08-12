@@ -78,12 +78,18 @@ main {
 
 #sighting-list li {
     margin-bottom: 0.3rem;
+    width: 100%;
+    background-color: #369;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+#sighting-list li p {
     display: flex;
     width: 100%;
     justify-content: space-between;
     gap: 1rem;
-    background-color: #369;
-    border-radius: 0.3rem;
+    margin: 0;
 }
 
 #sighting-list li a {
@@ -165,7 +171,7 @@ select:not(:last-child) {
 /*WATCHLIST BUTTON************************************************/
 #watchlist-button {
     position: fixed;
-    right: 30rem;
+    right: 12rem;
     bottom: 2rem;
 }
 
@@ -175,6 +181,22 @@ select:not(:last-child) {
     align-items: center;
     height: 4rem;
     width: 5rem;
+    background-color: rgb(255, 238, 0);
+    border-radius: 3rem;
+}
+
+#back-to-home-button {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+#back-to-home-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
     background-color: rgb(255, 238, 0);
     border-radius: 3rem;
 }

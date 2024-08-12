@@ -2,7 +2,6 @@
 require 'lib/utils.php';
 include 'partials/top.php';
 
-
 echo '<h1>Adding Car to Database...</h1>';
 
 consolelog($_POST, 'POST Data');
