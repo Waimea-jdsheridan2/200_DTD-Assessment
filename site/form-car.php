@@ -41,20 +41,24 @@ catch (PDOException $e) {
 
     <label>Year</label>
     <input name="year"
-           type="text"
+           type="number"
+           min="1900"
            placeholder="e.g. 2005" 
            required>
 
-    <label>HMO</label>
+    <label>How Many Owners?</label>
     <input name="hmo"
-           type="text"
+           type="number"
+           min="1"
            placeholder="e.g. 1" 
            required>
 
     <label>Km</label>
     <input name="kilometers"
-           type="text"
-           placeholder="e.g. 5,000" 
+           type="number"
+           min="0"
+           step="10000"
+           placeholder="e.g. 5000" 
            required>
 
     <label>Condition</label>

@@ -17,5 +17,4 @@ catch (PDOException $e) {
 }
 
 header('location: index.php');
-
 ?>

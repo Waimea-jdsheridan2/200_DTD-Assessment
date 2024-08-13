@@ -58,11 +58,5 @@ echo '<div id="add-button-car">
         </a>
      </div>';
 
-echo '<div id="watchlist-button">
-        <a href="watchlist.php">
-            Watchlist
-        </a>
-    </div>';
-
  include 'partials/bottom.php'; 
  ?>

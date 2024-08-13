@@ -25,7 +25,7 @@ echo '<p>condition: '     . $condition;
 $db = connectToDB();
 
 $query = 'INSERT INTO cars 
-          (make, model, colour, year, hmo, kilometers, condition)
+          (make, model, colour, year, hmo, kilometers, `condition`)
           VALUES (?,?,?,?,?,?,?)';
 
 try {

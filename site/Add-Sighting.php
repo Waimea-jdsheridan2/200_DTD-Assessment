@@ -34,11 +34,5 @@ catch (PDOException $e) {
 
 echo '<p>Success!!!</p>';
 
-echo '<div id="back-to-home-button">
-        <a href="index.php">
-            Home
-        </a>
-     </div>';
-
  include 'partials/bottom.php';
  ?>

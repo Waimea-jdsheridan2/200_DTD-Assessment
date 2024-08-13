@@ -36,6 +36,16 @@ header h1 {
     font-weight: normal;
 }
 
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
 
 /* NAV ****************************************************/
 
@@ -181,22 +191,6 @@ select:not(:last-child) {
     align-items: center;
     height: 4rem;
     width: 5rem;
-    background-color: rgb(255, 238, 0);
-    border-radius: 3rem;
-}
-
-#back-to-home-button {
-    position: fixed;
-    right: 2rem;
-    bottom: 2rem;
-}
-
-#back-to-home-button a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-    width: 4rem;
     background-color: rgb(255, 238, 0);
     border-radius: 3rem;
 }

@@ -2,22 +2,19 @@
 require 'lib/utils.php';
 include 'partials/top.php';
 
-$sightingid = $_GET['id'] ?? '';
+$carId = $_GET['id'] ?? '';
 
 $db = connectToDB();
 consolelog($db);
 
-$query = 'SELECT * FROM sightings WHERE id =?';
+$query = 'SELECT * FROM cars WHERE id =?';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$sightingid]);
-    $sighting = $stmt->fetch();
+    $stmt->execute([$carId]);  //Pass in the data
+    $car = $stmt->fetch();  // Only be one result
 }
 catch (PDOException $e) {
-    consolelog($e->getMessage(), 'DB Sighting Fetch', ERROR);
-    die('There was an error getting sighting data from the database');
+    consolelog($e->getMessage(), 'DB Detail Fetch', ERROR);
+    die('There was an error getting detail data from the database');
 }
-
-if ($sighting == false) die('Unknown sighting ' . $sightingid);
-echo $sighting['id'];
