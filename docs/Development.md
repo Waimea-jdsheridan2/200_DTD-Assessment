@@ -85,3 +85,25 @@ Today I worked on my colour choices , I have chosen neutral green and blue colou
 ![Colour Choices V2](images/Colours_V2.png)
 
 I have followed up with my clients advice and changed the new car form and details forms fields to have a darker colour, this is to ensure the fields stand out more and to make the colour palette fit the overall site.
+
+### 13.8.24
+
+I have Added a 'Add car' button to add a car to my database for my website.
+
+![Add Button](images/Add_Button.png)
+
+When you click on it it sends you to this page.
+
+![Add Car Page](images/Add_Car_Page.png)
+
+You must fill in the fields to add a car to the database.
+
+![Field](images/Field.png)
+
+Once you click add, the car will be in the database.
+
+![Success](images/Success.png)
+
+I will show this to my client and will get them to do a demonstration to see how they feel about it.
+
+>I think that the add car function works really well, I like how you can pick a specific year and that the kilometres can be done in x10 examples.
