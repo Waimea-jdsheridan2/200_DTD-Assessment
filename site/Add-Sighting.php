@@ -9,23 +9,23 @@ consolelog($_POST, 'POST Data');
 $car_id    = $_POST['id'];
 $date      = $_POST['date'];
 $location  = $_POST['location'];
-$details  = $_POST['details'];
+
 
 
 echo '<p>Car id: '      . $car_id;
 echo '<p>Date: '        . $date;
 echo '<p>Location: '    . $location;
-echo '<p>Details: '    . $details;
+
 
 $db = connectToDB();
 
 $query = 'INSERT INTO sightings 
-          (car_id, date, location, details)
-          VALUES (?,?,?,?)';
+          (car_id, date, location)
+          VALUES (?,?,?,)';
 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$car_id, $date, $location, $details]);
+    $stmt->execute([$car_id, $date, $location]);
 }
 catch (PDOException $e) {
     consolelog($e->getMessage(), 'DB Sighting Add', ERROR);

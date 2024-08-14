@@ -37,8 +37,6 @@ foreach($sightings as $sighting) {
     echo       '<span class="date">'. $sighting['date'] . '</span>';
     echo       '<span class="location">'. $sighting['location'] . '</span>';
     echo       '<a class="name" href="delete-sighting.php?id=' . $sighting['sid'] . '">🗑</a>';
-    echo       '<a href="details.php?id=' . $sighting['sid'] . '">';
-    echo         'Details';
     echo       '</a>';
     echo    '</p>';
     echo '</li>';

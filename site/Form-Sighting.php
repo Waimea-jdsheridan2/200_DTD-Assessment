@@ -45,11 +45,6 @@ foreach($cars as $car) {
            placeholder="e.g. Richmond" 
            required>
 
-    <label>Details</label>
-    <input name="details"
-           type="text"
-           required>
-
     <input type="submit" 
            value= "Add">
 
