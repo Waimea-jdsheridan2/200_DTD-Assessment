@@ -10,8 +10,9 @@ consolelog($db);
 $query = 'SELECT sightings.id AS sid,
                  sightings.date,
                  sightings.location,
-                 cars.model,
-                 cars.make
+                 cars.year,
+                 cars.make,
+                 cars.model
             FROM sightings
             JOIN cars ON sightings.car_id = cars.id
             ORDER BY sightings.date DESC';
@@ -32,7 +33,7 @@ echo '<ul id="sighting-list">';
 
 foreach($sightings as $sighting) {
     echo '<li>';
-    echo     '<p class="car">'. $sighting['make'] . ' '. $sighting['model'] . '</p>';
+    echo     '<p class="car">'. $sighting['year'] . ' '. $sighting['make'] . ' '. $sighting['model'] . '</p>';
     echo     '<p>';
     echo       '<span class="date">'. $sighting['date'] . '</span>';
     echo       '<span class="location">'. $sighting['location'] . '</span>';

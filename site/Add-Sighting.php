@@ -21,7 +21,7 @@ $db = connectToDB();
 
 $query = 'INSERT INTO sightings 
           (car_id, date, location)
-          VALUES (?,?,?,)';
+          VALUES (?,?,?)';
 
 try {
     $stmt = $db->prepare($query);

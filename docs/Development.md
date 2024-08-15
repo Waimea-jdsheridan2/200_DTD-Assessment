@@ -106,4 +106,7 @@ Once you click add, the car will be in the database.
 
 I will show this to my client and will get them to do a demonstration to see how they feel about it.
 
->I think that the add car function works really well, I like how you can pick a specific year and that the kilometres can be done in x10 examples.
+>I think that the add car function works really well, I like how you can pick a specific year and that the kilometres can be done in x10 stages.
+
+### 15.8.24
+
