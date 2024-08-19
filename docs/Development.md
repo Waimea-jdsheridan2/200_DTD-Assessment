@@ -90,23 +90,42 @@ I have followed up with my clients advice and changed the new car form and detai
 
 I have Added a 'Add car' button to add a car to my database for my website.
 
-![Add Button](images/Add_Button.png)
+This is the video of it working:
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jdsheridan2_waimea_school_nz/EQLGHa8XSdpAlVAUQR_0H1MBq8ikVhI_9Sv8nEyr5KJhFg
 
-When you click on it it sends you to this page.
+This is the database before:
+![Database Before](images/Before.png)
 
-![Add Car Page](images/Add_Car_Page.png)
-
-You must fill in the fields to add a car to the database.
-
-![Field](images/Field.png)
-
-Once you click add, the car will be in the database.
-
-![Success](images/Success.png)
+And this is the database after:
+![Database after](images/After.png)
 
 I will show this to my client and will get them to do a demonstration to see how they feel about it.
 
 >I think that the add car function works really well, I like how you can pick a specific year and that the kilometres can be done in x10 stages.
 
 ### 15.8.24
+I have added a sighting button that allows the user to add a sighting.
+
+Video showing it:
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jdsheridan2_waimea_school_nz/EUGvZY43Y6lGp6_P10FpS2MBw6IvC3WgwkxC9smqYsjPqw
+
+Database before:
+![Sighting Database before](images/Sighting_Database_before.png)
+
+Database After:
+![Sighting Database after](images/Sighting_Database_after.png)
+
+I will show this to my client and get their feedback from them.
+
+>The add sighting phase works really well, I like how you can pick a specific date that you sighted the car for and you can pick its suitable location where you saw it.
+
+## 19.8.24
+I have made a video of me going through my website and testing the functionality of it.
+
+The Video:
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jdsheridan2_waimea_school_nz/EcrH1Fbv1ElJiA_1YLLyCc0Bwacdt3B-Nr3zbKX6x8vz2A?e=JqJ9b6
+
+In the video I showed the database before and after during the adding process of the site.
+
+
 
