@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: #333;
+    background-color: #131207;
     color: white;
     margin: 0;
     min-height: 100vh;
@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: darkslategray;
+    background-color: #02A676;
     border-bottom: 1px solid slategrey;
 }
 
@@ -37,7 +37,7 @@ header h1 {
 }
 
 header h1 a {
-    color: white;
+    color: #f5f3d6;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #f5f3d6;
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ main {
 #sighting-list li {
     margin-bottom: 0.3rem;
     width: 100%;
-    background-color: #369;
+    background-color: #585ad5;
     border-radius: 0.3rem;
     padding: 0.5rem;
 }
@@ -105,7 +105,7 @@ main {
 #sighting-list li a {
     display: block;
     padding: 0.2rem 0.5rem;
-    color: white;
+    color: #f5f3d6;
     text-decoration: none;
 }
 
@@ -125,13 +125,13 @@ form {
     width: max-content;
     margin: 1rem auto;
     padding: 1rem;
-    border: 1px solid #369;
+    border: 1px solid #585ad5;
     border-radius: 0.5rem;
 }
 
 label {
     display: block;
-    color: #9cf;
+    color: #f5f3d6;
 }
 
 input, select {
@@ -156,15 +156,15 @@ select:not(:last-child) {
     justify-content: center;
     align-items: center;
     height: 4rem;
-    width: 4rem;
-    background-color: rgb(255, 238, 0);
+    width: 6rem;
+    background-color: #247b8f;
     border-radius: 3rem;
 }
 
 /*ADD BUTTON CAR************************************************/
 #add-button-car {
     position: fixed;
-    right: 7rem;
+    right: 9rem;
     bottom: 2rem;
 }
 
@@ -174,24 +174,7 @@ select:not(:last-child) {
     align-items: center;
     height: 4rem;
     width: 4rem;
-    background-color: rgb(255, 238, 0);
-    border-radius: 3rem;
-}
-
-/*WATCHLIST BUTTON************************************************/
-#watchlist-button {
-    position: fixed;
-    right: 12rem;
-    bottom: 2rem;
-}
-
-#watchlist-button a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
-    width: 5rem;
-    background-color: rgb(255, 238, 0);
+    background-color: #247b8f;
     border-radius: 3rem;
 }
 
@@ -200,8 +183,8 @@ select:not(:last-child) {
 footer {
     padding: 1rem;
     text-align: center;
-    border-top: 1px solid slategrey;
-    background-color: darkslategrey;
+    border-top: 1px solid #f5f3d6;
+    background-color: #02A676;
     font-size: 0.8rem;
-    color: slategrey;
+    color: #f5f3d6;
 }

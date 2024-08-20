@@ -117,7 +117,7 @@ Database After:
 
 I will show this to my client and get their feedback from them.
 
->The add sighting phase works really well, I like how you can pick a specific date that you sighted the car for and you can pick its suitable location where you saw it.
+>The add sighting phase works really well, I like how you can pick a specific date that you sighted the car for and you can pick its suitable location where you located it.
 
 ## 19.8.24
 I have made a video of me going through my website and testing the functionality of it.
