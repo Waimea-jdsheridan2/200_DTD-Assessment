@@ -4,7 +4,6 @@
 
 $page = basename($_SERVER['SCRIPT_NAME']);
 
-
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +15,6 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
     <link rel="stylesheet" href="css/styles.css">
     
-
 </head>
 
 <body>
@@ -25,6 +23,6 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <h1><a href="index.php"><?= SITE_NAME ?></a></h1>
     </header>
 
-    <main>
+<main>
 
     
