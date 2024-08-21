@@ -71,11 +71,11 @@ Looking forward i will need to consider my end-users, they may have different ne
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Final Design Structure](images/Final_Design_Struture.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Final UI Design](images/Final_UI_Design.png)
 
 
 -------------------------------------------------
@@ -84,11 +84,11 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Completed Database Structure](images/Completed_Structure.png)
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+![Completed UI Interface](images/Completed_UI_Interface.png)
 
 
 -------------------------------------------------
