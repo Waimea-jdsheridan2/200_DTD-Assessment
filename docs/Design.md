@@ -97,7 +97,7 @@ Looking forward i will need to consider my end-users, they may have different ne
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+Looking back at my website now, i believe that it has met the end users needs well,  
 
 ### Meeting the System Requirements
 
