@@ -36,9 +36,9 @@ A website that should allow the user to record sightings of different cars that 
 
 The usability implication means how hard or easy it is for the user to do what the site intends them to do. This is where Nielsen's 10 usability heuristics come in. these could include following standard conventions, making the behaviour logical and familiar, providing the end-user with a clear route forwards, and always making it obvious to the end-user what is happening. 
 
-This implication is relevant to my major project because i need this website to be friendly to use, the people that use this site may not be very good at computer skills so i have to make it so the user knows and understands what is happening even if they aren't that skilled in IT equipment.
+This implication is relevant to my major project because I need this website to be friendly to use, the people that use this site may not be very good at computer skills so I have to make it so the user knows and understands what is happening even if they aren't that skilled in IT equipment.
 
-Moving forward, i will refer to nielsen's heuristics and try to make my UI design meet the standard of the heuristic as much as possible.need to consider how friendly the user interface is going to be at, the user interface should be easy to use, clients should be able to know what parts of the site they are working on. To make sure that the i have verified the UI is works properly, i will be testing it with my client and getting feedback about it to do any changes that may be required.
+Moving forward, I will refer to nielsen's heuristics and try to make my UI design meet the standard of the heuristic as much as possible.need to consider how friendly the user interface is going to be at, the user interface should be easy to use, clients should be able to know what parts of the site they are working on. To make sure that the I have verified the UI is works properly, I will be testing it with my client and getting feedback about it to do any changes that may be required.
 
 ### Functionality
 
@@ -60,9 +60,9 @@ Moving forward i will need to consider how the page will look and will it follow
 
 The end-users implication means does it meet the users specific needs, this implication should know as much as possible about your end-user
 
-This implication is important for my website because i want my website to fully satisfy my end-users needs, my website should show what the end user is wanting and deliver it in a way that is friendly towards my user.
+This implication is important for my website because I want my website to fully satisfy my end-users needs, my website should show what the end user is wanting and deliver it in a way that is friendly towards my user.
 
-Looking forward i will need to consider my end-users, they may have different needs of the use of this site and i will have to make it clear to them that the website will be able to fulfil their specifications of need.
+Looking forward I will need to consider my end-users, they may have different needs of the use of this site and I will have to make it clear to them that the website will be able to fulfil their specifications of need.
 
 
 -------------------------------------------------
@@ -97,22 +97,23 @@ Looking forward i will need to consider my end-users, they may have different ne
 
 ### Meeting the Needs of the Users
 
-Looking back at my website now, i believe that it has met the end users needs well,  
+Looking back at my website now, I believe that it has met the end users needs well, it is able to help the user keep track of what cars that they have spotted and is able to achieve that well.
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+I think my final product of the website meets the requirements as intended, The requirements were: 'View the recorded sightings, view a list of past recorded sightings, add car sighting to the site, add a new car to the system (database) and delete any unwanted sightings', my website has implemented all of those things through a simple and easy-to-use design.
 
-### Review of IMPLICATION NAME HERE
+### Review of Usability
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+The implication of 'Usability' was addressed well throughout my website. The end user is easily able to add a car to the database and then are able to add a sighting with that particular that added onto the database as well. The user is also able to delete a sighting from the site by simply clicking on a 'Rubbish Bin' icon and deleting the sighting.
 
-### Review of IMPLICATION NAME HERE
+### Review of Functionality
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+The implication of 'Functionality' was addressed well in my website. The website does run and each of the pages work and show what they should on each of them, the buttons to access the pages also work and take you to right pages that are labelled on the buttons.
 
-### Review of IMPLICATION NAME HERE
+### Review of Aesthetics
+The implication of 'Aesthetics' was addressed in my styles.css file, the colours that I have selected for my website are neutral colours that are not too bright but are also not too dull, the fonts are also appropriate to my sites overall feel as well. 
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
 
 
