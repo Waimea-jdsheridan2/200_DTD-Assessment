@@ -105,14 +105,30 @@ I think my final product of the website meets the requirements as intended, The 
 
 ### Review of Usability
 
-The implication of 'Usability' was addressed well throughout my website. The end user is easily able to add a car to the database and then are able to add a sighting with that particular that added onto the database as well. The user is also able to delete a sighting from the site by simply clicking on a 'Rubbish Bin' icon and deleting the sighting.
+The implication of 'Usability' was addressed well throughout my website. The system has a clean and simple UI.
+
+![Usability](images/Usability.png)
+
+ The end user is easily able to add a car to the database and then are able to add a sighting with that particular that added onto the database as well. The user is also able to delete a sighting from the site by simply clicking on a 'Rubbish Bin' icon and deleting the sighting.
 
 ### Review of Functionality
 
-The implication of 'Functionality' was addressed well in my website. The website does run and each of the pages work and show what they should on each of them, the buttons to access the pages also work and take you to right pages that are labelled on the buttons.
+The implication of 'Functionality' was addressed well in my website.
+
+The buttons take you to their appropriate pages:
+![Buttons](images/Buttons.png)
+
+The 'add car' button takes you to the right page:
+![Add-Car](images/Add-Car.png)
+
+ The website does run and each of the pages work and show what they should on each of them, the buttons to access the pages also work and take you to right pages that are labelled on the buttons.
 
 ### Review of Aesthetics
-The implication of 'Aesthetics' was addressed in my styles.css file, the colours that I have selected for my website are neutral colours that are not too bright but are also not too dull, the fonts are also appropriate to my sites overall feel as well. 
+The implication of 'Aesthetics' was addressed in my styles.css file.
+
+![Asethetics](images/Asethetics.png)
+
+ The colours that I have selected for my website are neutral colours that are not too bright but are also not too dull, the fonts are also appropriate to my sites overall feel as well. 
 
 
 

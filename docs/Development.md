@@ -123,9 +123,11 @@ I will show this to my client and get their feedback from them.
 I have made a video of me going through my website and testing the functionality of it.
 
 The Video:
-https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jdsheridan2_waimea_school_nz/EcrH1Fbv1ElJiA_1YLLyCc0Bwacdt3B-Nr3zbKX6x8vz2A?e=JqJ9b6
+[Functionality Video](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jdsheridan2_waimea_school_nz/EcrH1Fbv1ElJiA_1YLLyCc0Bwacdt3B-Nr3zbKX6x8vz2A?e=JqJ9b6)
 
-In the video I showed the database before and after during the adding process of the site.
-
+In the video I showed:
+- How to see all of the sighted cars
+- How to add a car to the system
+- How to add a sighting to the system
 
 

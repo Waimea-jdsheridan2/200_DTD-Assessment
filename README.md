@@ -2,8 +2,6 @@
 
 This is my Level 2 NCEA project for Digital Technologies
 
-![Logo](images/CarSpotting.png)
-
 It is a database-connected website that allows users to:
 
 - Have a list of previous car sightings.
